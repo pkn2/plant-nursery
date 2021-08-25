@@ -20,6 +20,7 @@ const customStyles = {
     bottom: "0",
     marginRight: "-50%",
     width: "90%",
+    inset: "47% auto 0px 50%",
     transform: "translate(-50%, -0%)",
   },
 };
