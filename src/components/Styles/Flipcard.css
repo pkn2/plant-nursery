@@ -1,0 +1,95 @@
+.flipcard {
+  background: #f1f4fb;
+  border-radius: 30px;
+  width: 100%;
+  height: 298px;
+  display: inline-block;
+  margin-right: 15px;
+  z-index: -99;
+}
+
+.flipcard_big {
+  background: green;
+  border-radius: 30px;
+  width: 130%;
+  height: 298px;
+  display: inline-block;
+  margin-right: 15px;
+  z-index: -99;
+}
+
+.card_img {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.text_box {
+  padding-left: 9px;
+}
+
+.ipcard-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 0px;
+}
+
+.nd_text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.add_btn {
+  background-color: black;
+  padding: 8px 27px;
+  color: white;
+  margin-top: 42px;
+  border-radius: 10px;
+}
+
+.remind_latter {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -96px;
+  left: 36%;
+}
+
+.remind_text {
+  position: relative;
+  top: -91px;
+  left: 21%;
+  color: white;
+  font-size: 13px;
+}
+
+.dis {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -36px;
+  left: 36%;
+}
+
+.dis_text {
+  position: relative;
+  top: -18px;
+  left: 21%;
+  color: white;
+  font-size: 13px;
+}

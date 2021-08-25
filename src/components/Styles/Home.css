@@ -1,0 +1,188 @@
+/*.header {}*/
+.bar {
+  left: 6.93%;
+  top: 4.58%;
+  position: fixed;
+}
+.search {
+  right: 6.93%;
+  top: 4.58%;
+  position: fixed;
+}
+.bag {
+  right: 22.93%;
+  top: 4.58%;
+  position: fixed;
+}
+.bagnum {
+  z-index: 99;
+  top: -47px;
+  left: 7px;
+  color: white;
+  position: relative;
+  background-color: green;
+  border-radius: 50px;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+}
+.cont {
+  /*height: 10000px;*/
+  margin-top: 22%;
+  z-index: -25;
+}
+
+.ipcard_cont {
+  overflow-x: scroll;
+  height: 305px;
+  z-index: inherit;
+  white-space: nowrap;
+}
+
+.small_display_card_box {
+  overflow: scroll;
+  height: 65px;
+  z-index: inherit;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.small_display_card_box_not_scroll {
+  height: 65px;
+  overflow: hidden;
+  z-index: inherit;
+  white-space: nowrap;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.rb-tabs-items {
+  justify-content: unset !important;
+}
+.bg-success {
+  color: green;
+}
+.contt {
+  margin-top: 35px;
+}
+.item {
+  overflow: scroll;
+  height: 415px;
+  z-index: inherit;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+.contbox {
+  height: 368px;
+  width: 85%;
+  margin-left: 10px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #f1f4fb;
+}
+
+.filter {
+  position: fixed;
+  bottom: 32px;
+  right: 0px;
+  border-radius: 25px 0px 0px 25px;
+  background-color: green;
+  height: 36px;
+  width: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 0px;
+  padding-top: 20px;
+  /* identical to box height, or 71% */
+
+  letter-spacing: -0.01em;
+  padding-left: 25px;
+
+  color: #000000;
+}
+.item_sec_header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  padding-left: 25px;
+  line-height: 0px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: #737373;
+}
+.item_pic_cont {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.item_pic {
+  width: 75%;
+  margin-top: 35px;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+
+.money {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 35px;
+  position: relative;
+  top: 29px;
+}
+
+.plus {
+  position: relative;
+  bottom: 1px;
+  right: -82%;
+  border-radius: 25px 0px 22px 0px;
+  background-color: green;
+  height: 13%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_flex {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_new {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: green;
+}
+
+.water {
+  border-radius: 8px;
+  height: 22px;
+  width: 22px;
+  background-color: #737373;
+  padding: 10px;
+  margin-right: 25px;
+}
