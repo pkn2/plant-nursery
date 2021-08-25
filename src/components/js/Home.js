@@ -8,7 +8,6 @@ import { BsBag, BsSearch, BsPlus } from "react-icons/bs";
 import { FiFilter } from "react-icons/fi";
 import { ImCross } from "react-icons/im";
 import Tabs, { Tab } from "react-best-tabs";
-import "react-best-tabs/dist/index.css";
 import Forest from "../image/images.jpeg";
 import Modal from "react-modal";
 
